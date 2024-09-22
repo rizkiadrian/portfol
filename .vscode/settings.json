@@ -1,0 +1,15 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // optional
+  "editor.formatOnSave": true,
+  "tailwindCSS.classAttributes": [
+    "classes",
+    "classesM",
+    "className",
+    "labelClassName"
+  ],
+  "files.associations": {
+    "*css": "tailwindcss"
+  },
+  "editor.inlineSuggest.showToolbar": "onHover"
+}
