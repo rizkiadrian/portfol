@@ -24,4 +24,17 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  .progress-ring {
+    transform: rotate(90deg); /* Rotate to start from the bottom */
+  }
+
+  .progress-ring circle {
+    transition: stroke-dasharray 0.5s ease;
+  }
+}
+
+@layer components {
+  .circle-gradient {
+    @apply bg-gradient-to-r from-pink-1 to-yellow-1;
+  }
 }
